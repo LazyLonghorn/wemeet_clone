@@ -1,0 +1,8 @@
+/* wemmet clone Main CSS */
+
+@import "reset.css";
+@import "header.css";
+
+*{
+    box-sizing: border-box;
+}
