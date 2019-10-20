@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/eb617a1186.js"></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav class="header__nav menu">
             <a class="header__logo">
                 <img src="images/logo.png"/> 
@@ -33,15 +33,103 @@
             </h1>
             <div class="header__button calendar-button">Add To Your Calendar</div>
             <ul class="header__utils util">
-                <li class="util-item">
+                <li class="util-item location">
                     <i class="fas fa-map-marker-alt"></i>
+                    <span class="util-text">
+                        City Hall, New York City
+                    </span>
                 </li>
-                <li class="util-item"></li>
-                <li class="util-item"></li>
-            </ul>
-            
+                <li class="util-item days">
+                    <i class="far fa-clock"></i>
+                    <span class="util-text">
+                        12-15 Sep 2019
+                    </span>
+                </li>
+                <li class="util-item timestamp">
+                    <ul class="timestamp-lists">
+                        <li class="timestamp-item">
+                            <span class="timestamp-time">61</span>
+                            <span class="timestamp-text">Days</span>
+                        </li>
+                        <li class="timestamp-item">
+                            <span class="timestamp-time">09</span>
+                            <span class="timestamp-text">Hours</span>
+                        </li>
+                        <li class="timestamp-item">
+                            <span class="timestamp-time">51</span>
+                            <span class="timestamp-text">Minutes</span>
+                        </li>
+                        <li class="timestamp-item">
+                            <span class="timestamp-time">17</span>
+                            <span class="timestamp-text">Seconds</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>            
         </main>
     </header>
+    <nav class="nav about">
+        <div class="about__column">
+            <img src="./images/about/about.jpg" alt="about-img" class="about__img"/>
+        </div>
+        <div class="about__column">
+            <span class="about__header">WELCOME TO</span>
+            <p class="about__title">
+                The Biggest Design<br>
+                Conference of the<br>
+                Year 2019
+            </p>
+            <p class="about__text">
+                Our set he for firmament morning sixth subdue<br>
+                darkness creeping gathered divide our let god. moving.<br>
+                Moving in fourth air night bring upon you’re it beast.
+            </p>
+            <div class="about__button">Learn More</div>
+        </div>
+    </nav>
+    <section class="speakers">
+        <header class="speakers__header">
+            <div class="speakers__header-column">
+                <span class="speakers__title">Speakers</span>
+            </div>
+            <div class="speakers__header-column">
+                <img src="./images/speakers/line.png" alt="" class="speakers__line">
+                <span class="speakers__titile-sub">Speakers</span>
+            </div>
+        </header>
+        <main class="speakers__main">
+            <ul class="speakers__list speakers">
+                <li class="speakers-people">
+                    <img src="images/speakers/Jonson Miller.png" alt="" class="speakers-img">
+                    <div class="speakers-profile">
+                        <p class="speakers-name">Jonson Miller</p>
+                        <p class="speakers-job">Creative Director</p>
+                    </div>
+                </li>
+                <li class="speakers-people">
+                    <img src="images/speakers/Marked Macau.png" alt="" class="speakers-img">
+                    <div class="speakers-profile">
+                        <p class="speakers-name">Marked Macau</p>
+                        <p class="speakers-job">UI/UX Designer</p>
+                    </div>
+                </li>
+                <li class="speakers-people">
+                    <img src="images/speakers/Albert Jackey.png" alt="" class="speakers-img">
+                    <div class="speakers-profile">
+                        <p class="speakers-name">Albert Jackey</p>
+                        <p class="speakers-job">Product Designer</p>
+                    </div>
+                </li>
+                <li class="speakers-people">
+                    <img src="images/speakers/Kelvin Cooper.png" alt="" class="speakers-img">
+                    <div class="speakers-profile">
+                        <p class="speakers-name">Kelvin Cooper</p>
+                        <p class="speakers-job">Art Director</p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+    </section>
     
 </body>
 </html>
