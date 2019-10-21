@@ -4,6 +4,7 @@
 @import "header.css";
 @import "nav.css";
 @import "speakers.css";
+@import "schedule.css";
 
 *{
     box-sizing: border-box;

@@ -1,6 +1,3 @@
-.speakers{
-    height: 900px;
-}
 .speakers__header{
     padding-left: 100px;
     position: relative;
@@ -23,7 +20,7 @@
     font-size: 130px;
     font-weight: 700;
     color: #F3F3F3;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 .speakers__main{
     padding-top:62px;
@@ -44,4 +41,10 @@
 }
 .speakers-name{
     margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.speakers-job{
+    color: #FF0000;
+    font-weight: 400;
 }

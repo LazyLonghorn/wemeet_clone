@@ -1,0 +1,15 @@
+.schedule{
+    padding-left: 85px;
+}
+.schedule__line{
+    width : 93%;
+    height: 10px;
+}
+.schedule header{
+    margin-top: 85px;
+}
+.schedule-profile{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+}
