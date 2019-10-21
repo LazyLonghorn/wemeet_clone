@@ -1,0 +1,30 @@
+.register{
+    height: 500px;
+    background-image: url("../images/banner/resister.png");
+    background-position-x: center;
+    position: relative;
+    color: #FFFFFF;    
+    
+    text-align:center;
+    margin-bottom:100px;
+}
+.register main{
+    
+}
+.register__title{    
+    position: relative;
+    display: inline-block;
+    font-size:50px;
+    font-weight: 800;
+    text-align:center;
+    word-spacing: -5px;
+    margin-top:150px;
+}
+.register__button{
+    margin: auto;
+    margin-top: 80px;
+    width:230px;
+    padding : 12px 0px;
+    font-size:17px;
+    font-weight: 600;
+}

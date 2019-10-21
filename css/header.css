@@ -30,12 +30,6 @@
 .header__menus .menu-item:first-of-type{
     color:#1E87DA;
 }
-.header__button{
-    border : 2px solid #FFFFFF;
-    text-align:center;
-    line-height: 25px;
-    cursor: pointer;
-}
 .menu-button{
     padding : 20px 60px;    
 }

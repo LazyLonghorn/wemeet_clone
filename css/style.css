@@ -5,7 +5,15 @@
 @import "nav.css";
 @import "speakers.css";
 @import "schedule.css";
+@import "register.css";
 
 *{
     box-sizing: border-box;
+}
+
+.g-button{
+    border : 2px solid #FFFFFF;
+    text-align:center;
+    line-height: 25px;
+    cursor: pointer;
 }
